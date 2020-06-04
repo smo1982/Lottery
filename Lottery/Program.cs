@@ -14,7 +14,6 @@ namespace Lottery
             string stringNumber = Convert.ToString(ticket.NumberCode);
             string[] numbers = new string[stringNumber.Length];
             string[] stars = new string[stringNumber.Length];
-            Console.Write(stringNumber);
             for (int i = 0; i < stars.Length; i++)
             {
                 stars[i] = "*";
